@@ -1,8 +1,8 @@
-﻿Name ❓
+﻿Name 
 =========POC for  using Ansible Tower as a CI/CD tool for 
 continuous deployment of an internal 3tier application on QA and production environments.
 
-Requirements 👀
+Requirements 
 ===========
 
       1) Ansible Tower Homework Lab
@@ -11,19 +11,19 @@ Requirements 👀
       4) https://github.com/Funkydhi/Ansible.git
 
 
-Role Variables 😎
+Role Variables 
 ==============
 
       export TOWER_GUID=     export MYKEY=~/.ssh/mykey.pem
       export MYUSER=dhiren.shastry@atos.net
 
-Dependencies 🛒
+Dependencies 
 ============
 
-  1) {{tower_guid}} is the GUID (unique identifier)   2) {{osp_guid}} is the GUID for workstation machine 
+  1) {{tower_guid}} is the GUID    2) {{osp_guid}} is the GUID for workstation machine 
   3) Tower Url: [tower1.guid.example.opentlc.com](https://tower1.guid.example.opentlc.com)
   
-Example Playbook 🐧
+Example Playbook 
 ================
  example of how to use your role :
 
@@ -33,7 +33,7 @@ Example Playbook 🐧
         roles:
       - config-tower
 
-License 🔐
+License 
 =======
 
 Opensource
