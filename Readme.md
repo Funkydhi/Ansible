@@ -1,8 +1,6 @@
-﻿Role Name ❓
-=========
-
-A POC to determine the feasibility of using Ansible Tower as a CI/CD tool for 
-automating continuous deployment of an internal three-tier application on QA and production environments.
+﻿Name ❓
+=========POC for  using Ansible Tower as a CI/CD tool for 
+continuous deployment of an internal 3tier application on QA and production environments.
 
 Requirements 👀
 ===========
@@ -16,20 +14,18 @@ Requirements 👀
 Role Variables 😎
 ==============
 
-      export TOWER_GUID=ccd4
-      export MYKEY=~/.ssh/mykey.pem
+      export TOWER_GUID=     export MYKEY=~/.ssh/mykey.pem
       export MYUSER=dhiren.shastry@atos.net
 
 Dependencies 🛒
 ============
 
-  1) {{tower_guid}} is the GUID (unique identifier) i.e ccd4
-  2) {{osp_guid}} is the GUID for workstation machine i.e 7e66
-  3) Tower Url: [tower1.ccd4.example.opentlc.com](https://tower1.ccd4.example.opentlc.com)
+  1) {{tower_guid}} is the GUID (unique identifier)   2) {{osp_guid}} is the GUID for workstation machine 
+  3) Tower Url: [tower1.guid.example.opentlc.com](https://tower1.guid.example.opentlc.com)
   
 Example Playbook 🐧
 ================
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
+ example of how to use your role :
 
       - hosts: localhost
         gather_facts: false 
@@ -41,8 +37,3 @@ License 🔐
 =======
 
 Opensource
-
-Author Information 🦈
-==================
-
-bsk1072 | [studydevops.blogspot.com](http://studydevops.blogspot.com/)
