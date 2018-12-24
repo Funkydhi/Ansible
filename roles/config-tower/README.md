@@ -1,0 +1,51 @@
+Role Name
+=========
+
+This role does the below,
+
+       1) pre-config-tower.yml
+       2) post-config-tower.yml
+       3) ec2_dynamic.yml
+       4) job_template.yml
+       5) workflow_template.yml
+
+Requirements
+------------
+
+  1) Ansible Tower Homework Lab
+  2) OpenStack for Ansible
+  3) Ansible Advanced
+  4) https://github.com/bsk1072/ansible_advance_homework.git
+
+Role Variables
+--------------
+
+          export TOWER_GUID=ccd4
+          export MYKEY=~/.ssh/mykey.pem
+          export MYUSER=bhandari-santhosh.kumar-atos.net
+
+Dependencies
+------------
+
+         1) {{tower_guid}} is the GUID (unique identifier) i.e ccd4
+         2) {{osp_guid}} is the GUID for workstation machine i.e 7e66
+       
+Example Playbook
+----------------
+
+Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
+
+        - name: Copy inventory vars
+          copy:
+            src: inventory_vars.json
+            dest: /root/inventory_vars.json
+        
+License
+-------
+
+Opensource
+
+Author Information
+------------------
+
+bsk1072 | [studydevops.blogspot.com](http://studydevops.blogspot.com/)
