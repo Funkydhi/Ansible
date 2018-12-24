@@ -12,14 +12,13 @@ Requirements
   1) Ansible Tower Homework Lab
   2) OpenStack for Ansible
   3) Ansible Advanced
-  4) https://github.com/bsk1072/ansible_advance_homework.git
+  4) https://github.com/Funkydhi/Ansible.git
 
 Role Variables
 --------------
 
-    1) export TOWER_GUID=ccd4
-    2) export MYKEY=~/.ssh/mykey.pem
-    3) export MYUSER=bhandari-santhosh.kumar-atos.net
+    1) export TOWER_GUID=    2) export MYKEY=~/.ssh/mykey.pem
+    3) export MYUSER=dhiren.shastry@atos.net
 
 Dependencies
 ------------
@@ -42,7 +41,3 @@ License
 
 BSD
 
-Author Information
-------------------
-
-bsk1072 | [studydevops.blogspot.com](http://studydevops.blogspot.com/)

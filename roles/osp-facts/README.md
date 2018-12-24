@@ -12,20 +12,17 @@ Requirements
   1) Ansible Tower Homework Lab
   2) OpenStack for Ansible
   3) Ansible Advanced
-  4) https://github.com/bsk1072/ansible_advance_homework.git
+  4) https://github.com/Funkydhi/Ansible.git
 
 Role Variables
 --------------
 
-export TOWER_GUID=ccd4
+export TOWER_GUID=
 export MYKEY=~/.ssh/mykey.pem
-export MYUSER=bhandari-santhosh.kumar-atos.net
-
-Dependencies
+export MYUSER=dhiren.shastry@atos.netDependencies
 ------------
 
-  1) {{tower_guid}} is the GUID (unique identifier) i.e ccd4
-  2) {{osp_guid}} is the GUID for workstation machine i.e 7e66
+  1) {{tower_guid}} is the GUID (unique identifier)  2) {{osp_guid}} is the GUID for workstation machine
 
 Example Playbook
 ----------------
@@ -43,7 +40,3 @@ License
 
 Opensource
 
-Author Information
-------------------
-
-bsk1072 | [studydevops.blogspot.com](http://studydevops.blogspot.com/)

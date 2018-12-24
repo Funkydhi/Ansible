@@ -13,7 +13,7 @@ This roles does the below,
 Requirements
 ------------
 
-1) git repository: https://github.com/bsk1072/ansible_advance_homework.git
+1) git repository: https://github.com/Funkydhi/Ansible.git
 2) Playbooks to deploy internal 3-tier app
 3) Install HA Ansible Tower
 
@@ -48,7 +48,3 @@ License
 
 Opensource
 
-Author Information
-------------------
-
-bsk1072 | [studydevops.blogspot.com](http://studydevops.blogspot.com/)
